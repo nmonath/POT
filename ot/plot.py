@@ -7,6 +7,9 @@ Functions for plotting OT matrices
 # License: MIT License
 
 import numpy as np
+import matplotlib
+matplotlib.use('agg')
+
 import matplotlib.pylab as pl
 from matplotlib import gridspec
 
